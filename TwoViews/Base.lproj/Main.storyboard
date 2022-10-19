@@ -16,6 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< refs/remotes/origin/main
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJx-Wg-wzK" colorLabel="IBBuiltInLabel-Red">
                                 <rect key="frame" x="26" y="47" width="338" height="362"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
@@ -25,6 +26,14 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DYF-y7-F0q" colorLabel="IBBuiltInLabel-Red">
                                 <rect key="frame" x="26" y="447" width="338" height="362"/>
+=======
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dA6-Zn-N2W">
+                                <rect key="frame" x="27" y="428" width="337" height="329"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hyx-Fp-Vxx">
+                                <rect key="frame" x="27" y="64" width="337" height="329"/>
+>>>>>>> Final version
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="338" id="WJh-Gh-wwd"/>
@@ -32,6 +41,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+<<<<<<< refs/remotes/origin/main
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="DYF-y7-F0q" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BgX-Cp-EsY"/>
@@ -40,23 +50,35 @@
                             <constraint firstItem="BJx-Wg-wzK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YwK-sb-ZcL"/>
                             <constraint firstItem="DYF-y7-F0q" firstAttribute="height" secondItem="BJx-Wg-wzK" secondAttribute="height" id="pHj-B1-auk"/>
                             <constraint firstItem="BJx-Wg-wzK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vzC-cb-14o"/>
+=======
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hyx-Fp-Vxx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="2VY-5P-vXr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hyx-Fp-Vxx" secondAttribute="trailing" constant="26" id="FVV-b1-l04"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dA6-Zn-N2W" secondAttribute="bottom" constant="53" id="Q9f-1M-uUq"/>
+                            <constraint firstItem="dA6-Zn-N2W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="X2k-p9-QFB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dA6-Zn-N2W" secondAttribute="trailing" constant="26" id="dkx-bS-Kf8"/>
+                            <constraint firstItem="Hyx-Fp-Vxx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="fml-vH-7hh"/>
+                            <constraint firstItem="Hyx-Fp-Vxx" firstAttribute="height" secondItem="dA6-Zn-N2W" secondAttribute="height" id="gRb-8F-TuM"/>
+                            <constraint firstItem="dA6-Zn-N2W" firstAttribute="top" secondItem="Hyx-Fp-Vxx" secondAttribute="bottom" constant="35" id="mSh-gw-qO4"/>
+>>>>>>> Final version
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47.692307692307693" y="-2.1327014218009479"/>
+            <point key="canvasLocation" x="-214" y="3"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
