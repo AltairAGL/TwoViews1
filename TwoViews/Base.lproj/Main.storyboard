@@ -16,19 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BJx-Wg-wzK" colorLabel="IBBuiltInLabel-Red">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BJx-Wg-wzK" colorLabel="IBBuiltInLabel-Red">
                                 <rect key="frame" x="26" y="47" width="338" height="362"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="338" id="A4d-DA-mQk"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DYF-y7-F0q" colorLabel="IBBuiltInLabel-Red">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DYF-y7-F0q" colorLabel="IBBuiltInLabel-Red">
                                 <rect key="frame" x="26" y="447" width="338" height="362"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="338" id="WJh-Gh-wwd"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DYF-y7-F0q" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BgX-Cp-EsY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DYF-y7-F0q" secondAttribute="bottom" constant="1" id="HdW-JZ-sIh"/>
+                            <constraint firstItem="DYF-y7-F0q" firstAttribute="top" secondItem="BJx-Wg-wzK" secondAttribute="bottom" constant="38" id="M5A-vH-6Ku"/>
+                            <constraint firstItem="BJx-Wg-wzK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YwK-sb-ZcL"/>
+                            <constraint firstItem="DYF-y7-F0q" firstAttribute="height" secondItem="BJx-Wg-wzK" secondAttribute="height" id="pHj-B1-auk"/>
+                            <constraint firstItem="BJx-Wg-wzK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vzC-cb-14o"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
